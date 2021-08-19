@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>การแข่งขันตอบปัญหาวิทยาศาสตร์การแพทย์</title>
+<!-- TemplateEndEditable -->
+<script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="../login/js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="../login/js/mahidol_ajax.js"></script>
+<link rel="stylesheet" href="../mahidol.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="header">&nbsp;</div>
+<div class="tab_menu">&nbsp;<a href="../login/login.php" title="log in">log in</a> <a href="../login/register.php" title="สมัครเข้าแข่งขัน">register</a></div>
+<div class="content">
+<div class="headline"><!-- TemplateBeginEditable name="headline" -->headline<!-- TemplateEndEditable --></div>
+<div class="main_content"><!-- TemplateBeginEditable name="main_content" -->main_content<!-- TemplateEndEditable --></div>
+</div>
+<div class="footer">&nbsp;</div>
+</body>
+</html>

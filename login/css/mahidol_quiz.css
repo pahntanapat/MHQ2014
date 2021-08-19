@@ -1,0 +1,125 @@
+@charset "utf-8";
+.sidemenu {
+	height: auto;
+	width: 19%;
+	margin:0.25%;
+}
+.content {
+	float:right;
+	height: auto;
+	width: 79%;
+	margin:0.5%;
+	text-align: left;
+}
+
+#progressbox {
+	text-align:left;
+	height:20px;
+	width:95%;
+	margin-left:2.5%;
+}
+#progressbar {height:90%}
+.sidemenu{background-color:#FFF;}
+.sidemenu p{
+	margin-top:20px;
+	margin-bottom:0px;
+}
+.sidemenu a:link {
+	text-decoration: none;
+	font-weight:bold;
+	color:#404;
+}
+.sidemenu a:visited {
+	text-decoration: none;
+	font-weight:bold;
+	color:#404;
+}
+.sidemenu a:hover {
+	text-decoration: none;
+	font-weight:bold;
+	color:#404;
+}
+.sidemenu a:active {
+	text-decoration: none;
+	font-weight:bold;
+	color:#404;
+}
+.sidemenu .menubox div{
+	padding-left:1px;
+	border-bottom:thin dashed #609;
+}
+.sidemenu .menubox div:last-child{border-bottom:none;}
+
+.countMenu div{
+	counter-increment:i;
+	font-weight:bold;
+	color:#404;
+}
+.lock:before{content:url(../image/lock.png) " " counter(i) ". ";}
+.lock{background-color:#DDD;}
+.wrong:before{content:url(../image/wrong.png) " " counter(i) ". ";}
+.wrong{background-color:#FCC;}
+.correct:before{content:url(../image/correct.png) " " counter(i) ". ";}
+.correct{background-color:#9F6;}
+.q:before{content:url(../image/q.png) " " counter(i) ". ";}
+.q{background-color:#CFF;}
+.wait:before{content:url(../image/refresh.png) " " counter(i) ". ";}
+.wait{background-color:#F93;}
+.edit:before{content:url(../image/pencil.png) " " counter(i) ". ";}
+.edit{background-color:#FF6;}
+.err:before{content:url(../image/error.png) " " counter(i) ". ";}
+.err{background-color:#FCC;}
+
+.grey{
+	background-color:#DDD;
+	color:#000;
+	font-weight:bold;
+}
+.redpink{
+	background-color:#FCC;
+	color:#F00;
+	font-weight:bold;
+}
+.green{
+	background-color:#9F6;
+	color:#060;
+	font-weight:bold;
+}
+.lightblue{
+	background-color:#CFF;
+	color:#009;
+	font-weight:bold;
+}
+.orange{
+	background-color:#F93;
+	color:#FFF;
+	font-weight:bold;
+}
+.custard{
+	background-color:#FF6;
+	color:#F70;
+	font-weight:bold;
+}
+
+.sidemenu div span{
+	display:inline-block;
+	white-space:nowrap;
+}
+
+.team_message{
+	padding-left:5px;
+	padding-right:5px;
+}
+#reloadMsg{
+	float:right;
+	font-size:medium;
+}
+.a4{
+	width:210mm;
+	height:297mm;
+	padding-left:1cm;
+	padding-right:1cm;
+	padding-top:2cm;
+	padding-bottom:1cm;
+	border:thick solid #000;
+}
